@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hachathon2.Views.EnterCampaignData">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignID" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignIDEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignName" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignNameEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignCountryOfResidence " 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignCountryOfResidenceEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignPhone" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignPhoneEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignEmail" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignEmailEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignImagePath" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignImagePathEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignNoStars" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignNoStarsEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignAveREview" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignAveREviewEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignAvaVIP" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignAvaVIPEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignVIPPrice" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignVIPPriceEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignAvaEco" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignAvaEcoEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignAvaBus" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignAvaBusEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand"  HeightRequest="40" Padding="10" Spacing="10">
+                <Label Text="CampaignBusPrice" 
+                           TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                <Entry  x:Name="CampaignBusPriceEntry"  TextColor="Black"   BackgroundColor="White" Opacity="0.3" 
+                            FontSize="15" WidthRequest="120" HeightRequest="40"
+                            VerticalOptions="Start" HorizontalOptions="Start" />
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

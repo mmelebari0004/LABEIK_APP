@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hachathon2.CampaignListPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand"  HeightRequest="40" Spacing="10" Padding="5">
+                    <Label Text="Country" TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Start" HorizontalOptions="StartAndExpand"/>
+                    <Label x:Name="selectedCounty" TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="End" Orientation="Horizontal" Spacing="2">
+                    <Image Source="star.png"/>
+                    <Image Source="star.png"/>
+                    <Image Source="star.png"/>
+                    <Image Source="star.png"/>
+                    <Image Source="star.png"/>
+
+                </StackLayout>
+                <Picker x:Name="SortPicker"  Title="Sort by" 
+                            VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand"
+                            WidthRequest="150"  FontSize="Small" >
+                    
+                </Picker>
+            </StackLayout>
+        
+        <ListView x:Name="CampaignListView"  HasUnevenRows="True" ItemsSource="{Binding campaignList}" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+
+                        <StackLayout Orientation="Vertical" BackgroundColor="White" Opacity="0.6">
+                            <Grid HeightRequest="150">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="1" >
+                                    <Image Source="{Binding CampaignImagePath}" WidthRequest="300" HeightRequest="300" 
+                                               HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                </Grid>
+                                <Grid Grid.Column="2" Padding="5" >
+                                    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                        <Label Text="{Binding CampaignName}"  TextColor="Blue" FontSize="15" FontAttributes="Bold"
+                           VerticalOptions="Start" HorizontalOptions="Start"/>
+                                        <StackLayout HorizontalOptions="Start" Orientation="Horizontal" Spacing="2">
+                                            <Image Source="yellowStar.png"/>
+                                            <Image Source="yellowStar.png"/>
+                                            <Image Source="yellowStar.png"/>
+                                            <Image Source="yellowStar.png"/>
+                                            <Image Source="yellowStar.png"/>
+
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="{Binding likeRate}"/>
+                                            <Image Source="likeActive.png" HorizontalOptions="Start"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical" VerticalOptions="End" HorizontalOptions="End">
+                                        <Label Text="Price:"  TextColor="Blue" FontSize="15" FontAttributes="Italic"
+                           HorizontalOptions="End" />
+                                        <StackLayout Orientation="Horizontal" VerticalOptions="End" HorizontalOptions="End">
+                                            <Label Text="{Binding CampaignMinPrice}"  TextColor="Blue" FontSize="15" 
+                           VerticalOptions="Center"/>
+                                            <Label Text="$"  TextColor="Blue" FontSize="15" FontAttributes="Bold"
+                           VerticalOptions="Center"  />
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                </Grid>
+                            </Grid>
+
+
+
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+
+            </ListView.ItemTemplate>
+
+
+        </ListView>
+
+        </StackLayout>
+        
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\bin\Debug\netstandard2.0\Hachathon2.deps.json
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\bin\Debug\netstandard2.0\Hachathon2.dll
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\bin\Debug\netstandard2.0\Hachathon2.pdb
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\Views\CampaignListPage.xaml.g.cs
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\Views\CountryPage.xaml.g.cs
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\Hachathon2.csproj.CoreCompileInputs.cache
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\Hachathon2.AssemblyInfoInputs.cache
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\Hachathon2.AssemblyInfo.cs
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\Hachathon2.dll
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\Hachathon2.pdb
+C:\Users\ma-me_000\Desktop\Hachathon\Hachathon2\Hachathon2\Hachathon2\obj\Debug\netstandard2.0\Hachathon2.csprojAssemblyReference.cache
